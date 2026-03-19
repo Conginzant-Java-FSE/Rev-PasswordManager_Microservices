@@ -1,0 +1,17 @@
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\dto\response\PasswordAnalysisResponse.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\config\CorsConfig.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\exception\LlmTimeoutException.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\controller\AiController.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\exception\LlmCommunicationException.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\service\llm\OpenAiProvider.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\config\LlmConfig.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\service\llm\LlmClientService.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\dto\response\ChatResponse.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\service\PasswordAnalysisService.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\dto\request\ChatRequest.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\service\SecurityChatbotService.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\service\llm\LlmProvider.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\service\SmartVaultCategorizationService.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\AiServiceApplication.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\config\OkHttpClientConfig.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\ai-service\src\main\java\com\revature\ai\dto\response\CategorizationResponse.java

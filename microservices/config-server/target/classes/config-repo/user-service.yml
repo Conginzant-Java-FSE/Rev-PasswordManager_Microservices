@@ -1,0 +1,18 @@
+spring:
+  jpa:
+    show-sql: false
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+logging:
+  level:
+    com.revature.user: DEBUG
+    org.springframework.security: INFO

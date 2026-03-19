@@ -1,0 +1,16 @@
+encryption:
+  algorithm: AES/GCM/NoPadding
+  key-length: 256
+  salt-length: 16
+  gcm-iv-length: 12
+  gcm-tag-length: 128
+  iterations: 600000
+
+spring:
+  jpa:
+    show-sql: false
+
+logging:
+  level:
+    com.revature.vault: DEBUG
+    org.springframework.security: INFO

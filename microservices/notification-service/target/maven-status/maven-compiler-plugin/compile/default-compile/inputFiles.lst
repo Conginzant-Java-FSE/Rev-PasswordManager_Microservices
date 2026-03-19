@@ -1,0 +1,12 @@
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\controller\NotificationController.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\controller\InternalNotificationController.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\client\UserClient.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\dto\response\MessageResponse.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\model\Notification.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\NotificationServiceApplication.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\dto\NotificationDTO.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\exception\ResourceNotFoundException.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\dto\response\UnreadCountResponse.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\repository\NotificationRepository.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\service\NotificationService.java
+C:\Users\hp\Desktop\Microservices-Complete\manager\microservices\notification-service\src\main\java\com\revature\notification\config\OpenApiConfig.java

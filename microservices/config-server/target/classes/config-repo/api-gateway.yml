@@ -1,0 +1,52 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: user-service-public
+          uri: lb://user-service
+          predicates:
+            - Path=/api/auth/**
+          # No JwtAuthFilter - register, login, refresh-token are public
+
+        - id: user-service-protected
+          uri: lb://user-service
+          predicates:
+            - Path=/api/users/**, /api/2fa/**, /api/sessions/**, /api/settings/**
+          filters:
+            - JwtAuthFilter
+
+        - id: vault-service
+          uri: lb://vault-service
+          predicates:
+            - Path=/api/vault/**, /api/categories/**, /api/folders/**, /api/shares/**, /api/backup/**, /api/timeline/**
+          filters:
+            - JwtAuthFilter
+
+        - id: generator-service
+          uri: lb://generator-service
+          predicates:
+            - Path=/api/generator/**
+
+        - id: security-service
+          uri: lb://security-service
+          predicates:
+            - Path=/api/security/**, /api/dashboard/**
+          filters:
+            - JwtAuthFilter
+
+        - id: notification-service
+          uri: lb://notification-service
+          predicates:
+            - Path=/api/notifications/**
+          filters:
+            - JwtAuthFilter
+
+        - id: ai-service
+          uri: lb://ai-service
+          predicates:
+            - Path=/api/ai/**
+          filters:
+            - JwtAuthFilter
